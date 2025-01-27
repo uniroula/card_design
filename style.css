@@ -12,7 +12,7 @@
     width: 250px;
     border: 1px solid grey;
     border-radius: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
 
 .card-image {
@@ -55,4 +55,45 @@
     background-color: white;
     font-size: small;
     color: grey;
+}
+
+.btn-div{
+    background-color: white;
+    display: flex;
+}
+
+.card-btn{
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    font-size: x-small;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    color: rgb(0, 89, 255);
+    background-color: rgb(167, 227, 247);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card-btn:hover{
+    transition: 0.3s;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    font-size: x-small;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    color: rgb(38, 0, 255);
+    background-color: rgb(0, 191, 255);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
